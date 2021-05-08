@@ -1,0 +1,30 @@
+
+@import 'variables';
+
+.escritorio{
+    width: 100%;
+    padding: .8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: url('../img/Fondo.png');
+    background-size: cover;
+    background-position: center;
+    .enlaces{
+        a{
+            padding: 0 1.8rem;
+            cursor: pointer;
+            color: $blanco;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: ease-in-out .15s;
+            &:hover{
+                background: $blanco;
+                color: $rojo;
+                padding: 12px 21px;
+                border-radius: 55px;
+            }
+        }
+    }
+}

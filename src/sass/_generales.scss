@@ -1,0 +1,26 @@
+@import 'variables';
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: $letra;
+    box-sizing: border-box;
+    font-weight: $regular;
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    font-size: 1rem;
+    background: $blanco;
+    color: $rojo;
+    border: none;
+    border-radius: 55px;
+    &:hover{
+        font-size: 1.2rem;
+        font-weight: $black;
+        transition: ease-in-out .15s;
+    }
+}

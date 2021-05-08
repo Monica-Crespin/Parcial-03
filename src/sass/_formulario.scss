@@ -1,0 +1,58 @@
+@import 'variables';
+
+form{
+    margin-left: -10rem;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 45px;
+    background: $rojo;
+    .campo{
+        width: 31vw;
+        display: flex;
+        flex-direction: column;
+        input{
+            width: 100%;
+            min-height: 35px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 55px;
+            padding: 0.5rem;
+            background: $blanco;
+            transition: ease-in-out .15s;
+            &:hover{
+                padding: 12px;
+                transition: ease-in-out .15s;
+            }
+            &:focus{
+                color: $rojo;
+                border: 5px solid $borde;
+            }
+        }
+        textarea{
+            width: 100%;
+            min-height: 35px;
+            border: none;
+            border-radius: 15px;
+            padding: 0.5rem;
+            background: $blanco;
+            transition: ease-in-out .15s;
+            &:hover{
+                padding: 12px;
+                transition: ease-in-out .15s;
+            }
+            &:focus{
+                color: $rojo;
+                border: 5px solid $borde;
+            }
+        }
+    }
+    .error{
+        color: $blanco;
+        padding-top: 14px;
+        padding-left: 21px;
+        font-size: 12px;
+    }
+}

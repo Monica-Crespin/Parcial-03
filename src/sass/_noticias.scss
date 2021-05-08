@@ -1,0 +1,32 @@
+@import 'variables';
+
+.contacto{
+    margin-top: 80px;
+    background: $rojo;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 45px;
+    padding-bottom: 45px;
+    .bloque{
+        width: 50%;
+        padding-right: 45px;
+        .item{
+            h2{
+                color: $blanco;
+                font-weight: $black;
+                font-size: 32px;
+                margin-bottom: 10px;
+            }
+            p{
+                width: 55%;
+                color: $blanco;
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

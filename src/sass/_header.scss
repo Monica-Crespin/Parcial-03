@@ -1,0 +1,42 @@
+@import 'variables';
+
+header{
+    //width: 99vw;
+    height: 275vh;
+    background-image: url('../img/Header.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    .encabezado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .bloque{
+            margin-top: 375px;
+            margin-left: 50px;
+            margin-right: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h1{
+                font-weight: $black;
+                font-size: 145px;
+                color: $blanco;
+                text-transform: uppercase;
+                line-height: auto;
+                text-align: center;
+                padding-bottom: 10px;
+            }
+            p{
+                width: 55%;
+                font-size: 18px;
+                color: $blanco;
+                line-height: 27px;
+                text-align: center;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
